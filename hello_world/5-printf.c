@@ -3,7 +3,7 @@
 /**
 * main - funcition
 * description - print text using printf command
-* 
+*
 * Return: Always 0
 */
 int main(void)
