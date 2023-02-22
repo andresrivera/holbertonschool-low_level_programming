@@ -8,9 +8,7 @@
 */
 void times_table(void)
 {
-int a, b, c;
-int first_digit = 0;
-int last_digit = 0;
+int a, b, c, first_digit, last_digit;
 for (a = 0; a <= 9; a++)
 {
 for (b = 0; b <= 9; b++)
@@ -24,20 +22,16 @@ if (b <= 0)
 {
 _putchar(last_digit + '0');
 }
-else if (b > 0 && b < 9)
+else if (b > 0 && b <= 9)
 {
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(last_digit + '0');
-}
-else
+if (b == 9)
 {
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-_putchar(last_digit + '0');
 _putchar('\n');
+}
 }
 }
 else
