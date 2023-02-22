@@ -4,7 +4,7 @@
 * times_table - function
 * Description: prints the 9 times table
 *
-Retur: Always 0
+* Return: Always 0
 */
 void times_table(void)
 {
@@ -19,6 +19,7 @@ c = a * b;
 if (c <= 9)
 {
 _putchar('0' + c);
+_putchar(' ');
 }
 else
 {
