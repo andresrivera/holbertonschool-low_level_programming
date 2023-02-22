@@ -18,23 +18,33 @@ for (b = 0; b <= 9; b++)
 c = a * b;
 first_digit = c / 10;
 last_digit = c % 10;
-if (first_digit == 0 && last_digit <= 9)
+if (first_digit == 0)
 {
 _putchar(last_digit + '0');
+if (b != 9)
+{
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
 else
 {
+_putchar('\n');
+}
+}
+else
+{
 _putchar(first_digit + '0');
 _putchar(last_digit + '0');
+ if(b != 9)
+{
 _putchar(',');
 _putchar(' ');
 }
-if (b == 9)
+else
 {
 _putchar('\n');
+}
 }
 }
 }
