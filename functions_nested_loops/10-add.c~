@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+* add - function
+* @int: integer
+* Description: Adds two integers and returns the result
+*
+* Return: result
+*/
+int add(int, int)
+{
+int c = a + b;
+return (c);
+}
