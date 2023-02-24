@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+* print_square - function
+* @size: integer
+* Description prints a squre using '#' with  a size number
+*
+* Return: Always 0
+*/
+void print_square(int size)
+{
+int a, b;
+if (size > 0)
+{
+for (a = 0; size > a; a++)
+{
+for (b = 0; size > b; b++)
+{
+_putchar('\n');
+}
+_putchar('\n');
+}
+}
+else
+{
+_putchar('\n');
+}
+}
