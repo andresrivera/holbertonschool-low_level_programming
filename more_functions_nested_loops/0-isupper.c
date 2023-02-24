@@ -13,19 +13,8 @@ if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
-else if (c >= 'a' && c <= 'z')
-{
-return (0);
-}
 else
 {
-_putchar('N');
-_putchar('o');
-_putchar(' ');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
 return (0);
 }
 }
