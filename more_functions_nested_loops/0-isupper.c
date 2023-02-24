@@ -11,11 +11,11 @@ int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
 {
-_putchar('1');
+return (1);
 }
 else if (c >= 'a' && c <= 'z')
 {
-_putchar('0');
+return (0);
 }
 else
 {
@@ -26,6 +26,6 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
+return (0);
 }
- return (0);
 }
