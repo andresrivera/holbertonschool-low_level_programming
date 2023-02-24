@@ -29,6 +29,5 @@ printf("%d", n);
 }
 printf(" ");
 }
-printf(" ");
 return (0);
 }
