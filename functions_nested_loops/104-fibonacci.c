@@ -7,6 +7,7 @@
 * Return: Always 0;
 */
 int main(void)
+{
 int count;
 long fibonacci1 = 0, fibonacci2 = 1, sumatory;
 long fibonacci1_half1, fibonacci1_half2, fibonacci2_half1, fibonacci2_half2;
