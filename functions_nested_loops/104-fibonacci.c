@@ -12,7 +12,7 @@ int count;
 long f1 = 0, f2 = 1, sum;
 long f1_half1, f1_half2, f2_half1, f2_half2;
 long half1, half2;
-for (count = 0; count < 92; count++)
+for (count = 0; count < 98; count++)
 {
 sum = f1 + f2;
 printf("%lu, ", sum);
