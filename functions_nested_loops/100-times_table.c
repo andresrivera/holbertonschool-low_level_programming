@@ -1,0 +1,48 @@
+#include "main.h"
+
+/**
+* print_times_table - Prins a times table fo size n
+* @n: Size of times table
+*/
+void print_times_table(int n)
+{
+int x, y;
+if (n < 15)
+{
+for (x = 0; x <= n; x++)
+{
+for (y  = 0; y <= n; y++)
+{
+if (y == 0)
+{
+_putchar('0');
+}
+else if (x * y < 10)
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar(' ');
+_putchar(x * y + '0');
+}
+else if (x * y < 100)
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar((x * y) / 10 + '0');
+_putchar((x * y) % 10 + '0');
+}
+else
+{
+_putchar(',');
+_putchar(' ');
+_putchar((x * y) / 100 + '0');
+_putchar((x * y) % 100 / 10 + '0');
+_putchar((x * y) % 10 + '0');
+}
+}
+_putchar('\n');
+}
+}
+}
