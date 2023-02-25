@@ -20,9 +20,9 @@ continue;
 for (number = 3; number < (n / 2); number += 2)
 {
 if ((n % number) == 0)
-n /= number;
+n = n / number;
 }
 }
 printf("%ld\n", n);
-return (0); 
+return (0);
 }
