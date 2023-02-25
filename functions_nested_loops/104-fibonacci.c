@@ -2,7 +2,7 @@
 
 /**
 * main - function
-* description - print first 100 fibbonaci number
+* description - prints first 100 fibbonaci number
 *
 * Return: Always 0;
 */
