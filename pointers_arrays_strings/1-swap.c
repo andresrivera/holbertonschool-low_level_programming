@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* reset_to_98 - function
-* @n: pointer to integer
-* Description: takes a ponter to an int as parameter and updates value to 98
+* swap_int - function
+* @a: pointer to integer a
+* @b: pointer to integer b
+* Description: Swapt a and b pointer values
 *
 * Return: Always 0
 */
