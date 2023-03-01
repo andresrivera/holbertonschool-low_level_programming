@@ -9,26 +9,20 @@
 */
 void puts_half(char *str)
 {
-int n = 1;
+int n = 0;
 int m;
-if (*str != '\0')
-{
 while (str[n] != '\0')
 {
 n++;
 }
+m = n / 2;
 if (n % 2 == 1)
 {
-m = (n - 1) / 2;
+m++;
 }
-else
-{
-m = n / 2;
-}
-for (; n > m; m++)
+for (; m < n; m++)
 {
 _putchar(str[m]);
 }
-   }
 _putchar('\n');
 }
