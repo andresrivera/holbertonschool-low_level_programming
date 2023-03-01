@@ -17,7 +17,7 @@ n++;
 }
 if (n % 2 != 0)
 {
-  m = (n - 1) / 2;
+m = (n - 1) / 2;
 }
 else
 {
@@ -27,5 +27,4 @@ for (; n > m; m++)
 {
 _putchar(str[m]);
 }
-_putchar('\n');
 }
