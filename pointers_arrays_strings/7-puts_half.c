@@ -27,4 +27,5 @@ for (; n > m; m++)
 {
 _putchar(str[m]);
 }
+_putchar('\n');
 }
