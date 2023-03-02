@@ -1,7 +1,7 @@
 #include "main.h"
 
 #include <stdio.h>
-
+#include "_putchar.c"
 
 
 /**
@@ -20,6 +20,7 @@ int main(void)
   rev_string(s);
   
   printf("%s\n", s);
+
   
   return (0);
   
