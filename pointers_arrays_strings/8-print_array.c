@@ -17,7 +17,7 @@ if (a[i] != '\0')
 for (; i < n; i++)
 {
 printf("%d", a[i]);
-if (i != n)
+if (i < n - 1)
 {
 putchar(',');
 putchar(' ');
