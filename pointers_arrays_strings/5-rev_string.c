@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_putchar.c"
+
 /**
 * rev_string - function
 * @s: pointer type char s
@@ -14,7 +14,7 @@ while (*s)
 _putchar(*s++);
 n++;
 }
-_putchar('\n');
+_putchar('\n');*/
 for (n = n + 1; n > 0; n--)
 {
 _putchar(*s--);
