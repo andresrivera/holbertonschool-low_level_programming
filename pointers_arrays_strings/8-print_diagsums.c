@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* print_diagsum - function
+* print_diagsums - function
 * @a: character string pointer
 * @size: size of the square
 * Description: print the sum of two diagonals
