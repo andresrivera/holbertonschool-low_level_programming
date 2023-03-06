@@ -22,8 +22,7 @@ while (n2[l2] != '\0')
 l2++;
 if (l1 + 2 > size_r || l2 + 2 > size_r)
 return (0);
-l1--;
-l2--;
+l1--; l2--;
 while (i <= l1 || i <= l2)
 {
 num1 = num2 = 0;
@@ -34,14 +33,10 @@ num2 = n2[l2 - i] - '0';
 sum = num1 + num2 + carry;
 if (sum >= 10)
 {
-carry = 1;
-sum -= 10;
+carry = 1; sum -= 10;
 }
 else
-carry = 0;
-r[i] = sum + '0';
-i++;
-rl++;
+carry = 0; r[i] = sum + '0'; i++; rl++;
 }
 if (carry > 0)
 {
@@ -51,9 +46,7 @@ r[i + 1] = '\0';
 i = tmpl = 0;
 while (i <= rl)
 {
-tmp[i] = r[rl - i];
-tmpl++;
-i++;
+tmp[i] = r[rl - i]; tmpl++; i++;
 }
 i = 0;
 while (i < tmpl)
