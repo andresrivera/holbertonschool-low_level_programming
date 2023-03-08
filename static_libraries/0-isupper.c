@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_putchar.c"
+
 /**
 * _isupper - function
 * @c: char
@@ -11,20 +11,10 @@ int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
 {
-_putchar('1');
-}
-else if (c >= 'a' && c <= 'z')
-{
-_putchar('0');
+return (1);
 }
 else
 {
-_putchar('N');
-_putchar('o');
-_putchar(' ');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
+return (0);
 }
 }
