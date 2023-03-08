@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-
+#include <ctype.h> 
 /**
-* main - Multiply 2 numbers and print result
+* main - add numbers and print result
 * @argc: Number of arguments
 * @argv: Array of arguments recieved
 *
@@ -11,16 +11,24 @@
 */
 int main(int argc, char *argv[])
 {
-int  i = argc - 1, j = i - 1, res;
-if (i == 2)
+int i, c, sum = 0;
+if (argc < 2)
 {
-res = atoi(argv[i]) * atoi(argv[j]);
-printf("%d\n", res);
+printf("0\n");
+return (0);
 }
-else
+for (i = 1; i < argc; i++)
+{
+for (c = 0; argv[i][c] != '\0'; c++)
+{
+if (!isdigit(argv[i][c]))
 {
 printf("Error\n");
 return (1);
 }
+}
+sum += atoi(argv[i]);
+}
+printf("%d\n", sum);
 return (0);
 }
