@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-#include <ctype.h> 
+#include <ctype.h>
 /**
 * main - add numbers and print result
 * @argc: Number of arguments
