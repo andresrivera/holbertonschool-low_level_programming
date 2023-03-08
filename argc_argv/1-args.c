@@ -5,7 +5,7 @@
 * main - function
 * @argc: number of arguments
 * @argv: array of arguments
-* Description: print number of arguments 
+* Description: print number of arguments
 *
 * (void) argv - ignore argv
 * Return: Always 0
