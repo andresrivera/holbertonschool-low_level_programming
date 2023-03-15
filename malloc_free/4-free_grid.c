@@ -6,6 +6,8 @@
 * @grid: memory to free
 * @height: array size
 * Description: free memory of a 2-dimensional array
+*
+* Return: pointer to 2-dimensional
 */
 void free_grid(int **grid, int height)
 {

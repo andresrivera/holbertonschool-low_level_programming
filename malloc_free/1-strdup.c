@@ -5,6 +5,8 @@
 * *_strdup - function
 * @str: string to duplicate
 * Description: return pointer to a duplicate string
+*
+* Return: pointer to duplicate string
 */
 char *_strdup(char *str)
 {

@@ -6,6 +6,8 @@
 * @s1: content
 * @s2: content
 * Description: pointer to new content in memory space
+*
+* Return: pointer
 */
 char *str_concat(char *s1, char *s2)
 {

@@ -6,6 +6,8 @@
 * @size: size bytes
 * @c: character
 * Description: create an array of chars, and initializes it with specific char
+*
+* Return: pointer to array
 */
 char *create_array(unsigned int size, char c)
 {
