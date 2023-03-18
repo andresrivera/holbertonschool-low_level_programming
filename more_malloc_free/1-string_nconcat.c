@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
 * string_nconcat - fuction that concats two strings but with s2 by n amount.
