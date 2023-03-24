@@ -1,5 +1,5 @@
 #include "dog.h"
-
+#include <stdlib.h>
 /**
 * _strdup - create a new array containing a copy of the given string
 * @str: a pointer to the string to copy
