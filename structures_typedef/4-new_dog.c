@@ -15,7 +15,7 @@ unsigned int size = 0;
 if (str)
 {
 while (str[size++])
-;      
+;
 dup = malloc(sizeof(char) * size);
 if (dup)
 {
@@ -57,7 +57,7 @@ if (owner)
 {
 d->owner = _strdup(owner);
 if (!(d->owner))
-{	  
+{
 free(d->name);
 free(d);
 return (NULL);
