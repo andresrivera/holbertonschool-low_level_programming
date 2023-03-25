@@ -30,4 +30,4 @@ main:
 
 msg:
 
-	db   "Hello, Holberton",10
+	db   "Hello, World",10
