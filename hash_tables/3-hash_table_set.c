@@ -20,7 +20,7 @@ ptr = ht->array[index];
 while (ptr)
 {
 if (strcmp(ptr->key, key) == 0)
-{  
+{
 free(ptr->value);
 ptr->value = strdup(value);
 return (1);

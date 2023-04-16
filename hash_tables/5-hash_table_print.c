@@ -16,7 +16,7 @@ while (idx < ht->size)
 {
 node = ht->array[idx];
 while (node)
-{  
+{
 printf("\'%s\': \'%s\'", node->key, node->value);
 if (node->next)
 printf(", ");
